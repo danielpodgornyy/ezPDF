@@ -43,13 +43,13 @@ def Main():
         )
 
     merge_parser.add_argument(
-        "output-file",
+        "output_file",
         help = "file where merged pdfs go",
         action = OnlyAcceptPDF
         )
 
     merge_parser.add_argument(
-        "input-files",
+        "input_files",
         nargs = "+",
         help = "files to be merged (Atleast one)",
         action = OnlyAcceptPDF
